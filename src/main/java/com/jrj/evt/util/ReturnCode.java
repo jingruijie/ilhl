@@ -1,4 +1,4 @@
-package org.spring.springboot.util;
+package com.jrj.evt.util;
 /**
  * 定义返回枚举
  * @author jingruijie

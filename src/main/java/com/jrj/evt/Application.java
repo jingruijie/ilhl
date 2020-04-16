@@ -1,4 +1,4 @@
-package org.spring.springboot;
+package com.jrj.evt;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -6,12 +6,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Spring Boot 应用启动类
+ * @author jingruijie
  *
  */
 // Spring Boot 应用的标识
 @SpringBootApplication
 // mapper 接口类扫描包配置
-@MapperScan("org.spring.springboot.dao")
+@MapperScan("com.jrj.evt.dao")
 public class Application {
 
     public static void main(String[] args) {

@@ -1,10 +1,11 @@
-package org.spring.springboot.domain;
+package com.jrj.evt.domain;
 
 import java.util.Properties;
 
-import org.spring.springboot.util.Common;
-import org.spring.springboot.util.ReadPropertiesUtil;
-import org.spring.springboot.util.ReturnCode;
+import com.jrj.evt.util.Common;
+import com.jrj.evt.util.ReadPropertiesUtil;
+import com.jrj.evt.util.ReturnCode;
+
 /**
  * 定义统一的restful接口返回类型
  * @author jingruijie

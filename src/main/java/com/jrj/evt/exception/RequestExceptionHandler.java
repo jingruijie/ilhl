@@ -1,10 +1,11 @@
-package org.spring.springboot.exception;
+package com.jrj.evt.exception;
 
-import org.spring.springboot.domain.ReturnVO;
-import org.spring.springboot.util.ReturnCode;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.jrj.evt.domain.ReturnVO;
+import com.jrj.evt.util.ReturnCode;
 
 @RestController
 public class RequestExceptionHandler implements ErrorController{

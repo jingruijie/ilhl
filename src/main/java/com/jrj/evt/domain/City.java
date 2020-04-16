@@ -1,4 +1,4 @@
-package org.spring.springboot.domain;
+package com.jrj.evt.domain;
 
 /**
  * 城市实体类

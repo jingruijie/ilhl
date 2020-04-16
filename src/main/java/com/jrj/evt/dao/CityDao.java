@@ -1,9 +1,10 @@
-package org.spring.springboot.dao;
-
-import org.apache.ibatis.annotations.Param;
-import org.spring.springboot.domain.City;
+package com.jrj.evt.dao;
 
 import java.util.List;
+
+import org.apache.ibatis.annotations.Param;
+
+import com.jrj.evt.domain.City;
 
 /**
  * 城市 DAO 接口类

@@ -1,8 +1,8 @@
-package org.spring.springboot.service;
-
-import org.spring.springboot.domain.City;
+package com.jrj.evt.service;
 
 import java.util.List;
+
+import com.jrj.evt.domain.City;
 
 /**
  * 城市业务逻辑接口类

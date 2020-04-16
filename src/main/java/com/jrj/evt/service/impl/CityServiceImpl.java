@@ -1,12 +1,13 @@
-package org.spring.springboot.service.impl;
+package com.jrj.evt.service.impl;
 
-import org.spring.springboot.dao.CityDao;
-import org.spring.springboot.domain.City;
-import org.spring.springboot.service.CityService;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import com.jrj.evt.dao.CityDao;
+import com.jrj.evt.domain.City;
+import com.jrj.evt.service.CityService;
 
 /**
  * 城市业务逻辑实现类

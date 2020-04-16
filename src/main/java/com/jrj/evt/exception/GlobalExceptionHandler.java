@@ -1,11 +1,7 @@
-package org.spring.springboot.exception;
+package com.jrj.evt.exception;
 
 import java.util.Properties;
 
-import org.spring.springboot.domain.ReturnVO;
-import org.spring.springboot.util.Common;
-import org.spring.springboot.util.ReadPropertiesUtil;
-import org.spring.springboot.util.ReturnCode;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -13,6 +9,11 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import com.jrj.evt.domain.ReturnVO;
+import com.jrj.evt.util.Common;
+import com.jrj.evt.util.ReadPropertiesUtil;
+import com.jrj.evt.util.ReturnCode;
 
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler{

@@ -1,4 +1,4 @@
-package org.spring.springboot.util;
+package com.jrj.evt.util;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

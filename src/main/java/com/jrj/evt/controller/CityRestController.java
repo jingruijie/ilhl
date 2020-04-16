@@ -1,15 +1,16 @@
-package org.spring.springboot.controller;
+package com.jrj.evt.controller;
 
 import java.util.List;
 
-import org.spring.springboot.domain.City;
-import org.spring.springboot.service.CityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.jrj.evt.domain.City;
+import com.jrj.evt.service.CityService;
 
 /**
  * 城市 Controller 实现 Restful HTTP 服务
